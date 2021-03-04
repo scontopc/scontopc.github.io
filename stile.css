@@ -1,0 +1,682 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+@import url('https://fonts.googleapis.com/css?family=Tajawal:400,700');
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+#shopbanner img {
+	max-width:100%;
+	height:auto;
+}
+
+#shopbanner {
+	padding-bottom:12px;
+}
+
+body {
+	padding: 0px;
+	width: 100%;
+	margin: 0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.hall {
+	   position: relative;
+    	font-family: 'Montserrat', sans-serif;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.hall table { 
+  width: 90%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+.hall tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+.hall th { 
+  background: #333; 
+  color: white; 
+  font-weight: bold; 
+}
+.hall td, th { 
+  padding: 6px; 
+  border: 5px solid #fff; 
+  text-align: left; 
+}
+
+.hall .hd-space {
+	space: both;
+}
+.hall .hd-wrap {
+	width: 100%;
+}
+.hall .hd-wrapcen {
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	float: left;
+}
+.hall .mainholder {
+	padding: 0px !important;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	
+    background-color: #F5F5F5;
+}
+.hall .hd-content {
+	width: 1000px;
+	margin: 20px auto;
+	padding: 0px;
+	background: transparent;
+}
+/*---Common and Standard---<<END*/
+
+/*---Header->START*/
+.hall #hd-header {
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0px;
+	float: left;
+	
+}
+.hall .hd-header {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+.hall #hd-logo {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: 0 5px 5px rgba(0, 0, 0, 0.32);
+	margin-top: 5px;
+	margin-bottom:0px;
+
+}
+
+.hall #headerlinks {
+	width:1000px;
+	margin-bottom:30px;
+	text-align:center;
+
+}
+
+.hall #headerbox1, #headerbox2, #headerbox3, #headerbox4 {
+	width:25%;
+	float:left;
+padding-bottom:20px;
+
+
+}
+
+.hall #headerbox1 a, #headerbox2 a, #headerbox3 a, #headerbox4 a {
+color:#fff;
+text-decoration:none;
+font-family: 'Tajawal', sans-serif;
+font-size:18px;
+/*   text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff; */
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.hall #headerbox1 a:hover, #headerbox2 a:hover, #headerbox3 a:hover, #headerbox4 a:hover {
+color:#FFF;
+text-decoration:underline;
+}
+
+.hall #hd-logo img {
+	max-width:100%;
+	height:auto;
+}
+/*---Header---<<END*/
+
+/*---Listing Column start----*/
+
+.hall #listingarea {
+	width: 1000px;
+	position: relative;
+	float: left;
+}
+.hall .hd-listingarea-box {
+	float: left;
+	margin-bottom: 20px;
+	width: 1000px;
+	-webkit-box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.49);
+box-shadow: 0px 10px 10px 1px rgba(0,0,0,0.49);
+}
+.hall .hd-listinghead {
+	width: 980px;
+	float: left;
+	padding: 8px 10px;
+	margin: 0px;
+	background: url(#) repeat-x left top;
+	color: #fff;
+	font-family: 'Tajawal', sans-serif!important;
+	font-size: 25px;
+	text-align: center;
+	background-color:#0078d7;
+}
+
+.hall .desc-headtitle {
+	background: url(#) repeat-x left top;
+	height: 40px;
+	line-height: 40px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	width: 1000px;
+	text-align: left;
+	float: left;
+	border-radius: 0px 0px 0 0;
+background-color:#0078d7;
+}
+
+.hall .desc-headtitle span {
+	color: #fff;
+	font-family: 'Tajawal', sans-serif!important;
+	font-size: 20px;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px 0px 38px;
+	background: url(https://www.halldesigns.co.uk/mobile/images/descriptionicon.png) no-repeat left center;
+}
+.hall .desc-rd {
+	width: 960px;
+	float: left;
+	padding: 20px;
+	background: #fff;
+	margin: 0;
+	border-radius: 0 0 0px 0px;
+}
+.hall .desc-text {
+	color: #6e6e6e;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	text-align: left;
+	text-decoration: none;
+	
+}
+.hall .desc-text ul {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+.hall .desc-text ul h1 {
+	width: 100%;
+	float: left;
+	margin: 0 0 5px 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.hall .hd-listingarea-box .nonepadding {
+	padding: 0px 0 0px 0;
+	width: 1000px;
+	
+}
+
+/*---Listing Column End----*/
+/*---Footer->START*/
+.hall .hd-wrapcens {
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.hall #hd-footer {
+	width: 1000px;
+	padding: 0;
+	position: relative;
+	margin: 15px auto 0px;
+}
+.hall #hd-footer #hd-copyright {
+	color: #fff;
+	font-family: 'Tajawal', sans-serif!important;
+	font-size: 13px;
+	font-weight: 300;
+	margin: 0px 0px 40px;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	float: left;
+	letter-spacing: 1px;
+}
+.hall #hd-thankyou {
+	color: #000;
+	font-family: 'Lato', sans-serif!important;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.hall #hd-footer #hd-copyright span {
+	color: #000;
+}
+
+.hall #imagegallery img {
+	max-width:90%;
+	margin-bottom:10px;
+}
+
+
+@media(max-width: 800px) {
+	
+.hall .hd-header {
+	width: 100%;
+}
+.hall #hd-logo {
+	font-size: 100%;
+	margin: 3% 0;
+	width:100%;
+	text-align:center;
+}
+
+.hall #hd-logo img {
+	max-width:100%;
+	height:auto;
+}
+
+.hall .slogan {
+	width: 100%;
+	background: none;
+	font-size: 100%;
+	margin: 1% 0;
+}
+.hall .hd-content {
+	width: 100%;
+	margin: 2% 0;
+}
+.hall #listingarea {
+	width: 100%;
+}
+.hall .hd-listingarea-box {
+	width: 100%;
+	margin-bottom: 2%;
+}
+.hd-listingarea-box .nonepadding {
+	width: 100%;
+}
+.hall .hd-listinghead {
+	float: none;
+	line-height: normal;
+	padding: 2% 3%;
+	width: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.hall .desc-headtitle {
+	float: none;
+	line-height: normal;
+	padding: 1% 3%;
+	width: auto;
+	height: auto;
+	text-align: left;
+	margin-bottom: 0;
+}
+.hall .desc-rd {
+	padding: 3% 5%;
+	width: 90%;
+}
+.hall .desc-text ul li {
+	padding: 0 0 0 8%;
+	width: 93%;
+}
+.hall .desc-rd.desc-text img {
+	width: auto;
+	max-width: 100%;
+}
+.hall .hd-wrapcens {
+}
+.hall #hd-footer {
+	width: 100%;
+}
+.hall #hd-footer #hd-copyright {
+	margin: 2% 0;
+	padding: 0 1%;
+	width: 98%;
+}
+
+.hall #headerlinks {
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.hall #headerbox1, #headerbox2, #headerbox3, #headerbox4 {
+        display: block; 
+        float: none; 
+        width: 100%;
+}
+
+.hall #imagegallery img {
+	max-width:90%;
+	margin-bottom:10px;
+}
+
+}
+@media(max-width: 500px) {
+.hall .hd-header {
+	width: 100%;
+}
+.hall #hd-logo {
+	font-size: 100%;
+	margin: 3% 0;
+	width:100%;
+	text-align:center;
+}
+.hall .slogan {
+	width: 100%;
+	background: none;
+	font-size: 100%;
+	margin: 1% 0;
+}
+.hall .hd-content {
+	width: 100%;
+	margin: 2% 0;
+}
+.hall #listingarea {
+	width: 100%;
+}
+.hall .hd-listingarea-box {
+	width: 100%;
+	margin-bottom: 2%;
+}
+.hall .hd-listingarea-box .nonepadding {
+	width: 100%;
+}
+.hall .hd-listinghead {
+	float: none;
+	line-height: normal;
+	padding: 1% 3%;
+	width: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.hall #hd-logo img {
+	max-width:100%;
+	height:auto;
+}
+.hall .desc-headtitle {
+	float: none;
+	line-height: normal;
+	padding: 1% 3%;
+	width: auto;
+	height: auto;
+	text-align: left;
+	margin-bottom: 0;
+}
+.hall .desc-rd {
+	padding: 3% 5%;
+	width: 90%;
+}
+.hall .desc-text ul li {
+	padding: 0 0 0 8%;
+	width: 93%;
+}
+.hall .desc-rd.desc-text img {
+	width: auto;
+	max-width: 100%;
+}
+.hall .hd-wrapcens {
+}
+.hall #hd-footer {
+	width: 100%;
+}
+.hall #hd-footer #hd-copyright {
+	margin: 2% 0;
+	padding: 0 1%;
+	width: 98%;
+}
+
+.hall #headerlinks {
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.hall #headerbox1, #headerbox2, #headerbox3, #headerbox4 {
+        display: block; 
+        float: none; 
+        width: 100%;
+}
+
+.hall #imagegallery img {
+	max-width:95%;
+	margin-bottom:10px;
+}
+
+}
+@media(max-width: 400px) {
+.hall .hd-header {
+	width: 100%;
+}
+.hall #hd-logo {
+	font-size: 100%;
+	margin: 3% 0;
+	width:100%;
+	text-align:center;
+}
+
+.hall #hd-logo img {
+	max-width:100%;
+	height:auto;
+}
+
+.hall .slogan {
+	width: 100%;
+	background: none;
+	font-size: 100%;
+	margin: 1% 0;
+}
+.hall .hd-content {
+	width: 100%;
+	margin: 2% 0;
+}
+.hall #listingarea {
+	width: 100%;
+}
+.hall .hd-listingarea-box {
+	width: 100%;
+	margin-bottom: 2%;
+}
+.hall .hd-listingarea-box .nonepadding {
+	width: 100%;
+}
+.hall .hd-listinghead {
+	float: none;
+	line-height: normal;
+	padding: 2% 3%;
+	width: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+
+.hall .desc-headtitle {
+	float: none;
+	line-height: normal;
+	padding: 1% 3%;
+	width: auto;
+	height: auto;
+	text-align: left;
+	margin-bottom: 0;
+}
+.hall .desc-rd {
+	padding: 3% 5%;
+	width: 90%;
+}
+.hall .desc-text ul li {
+	padding: 0 0 0 8%;
+	width: 93%;
+}
+.hall .desc-rd.desc-text img {
+	width: auto;
+	max-width: 100%;
+}
+.hall .hd-wrapcens {
+}
+.hall #hd-footer {
+	width: 100%;
+}
+.hall #hd-footer #hd-copyright {
+	margin: 2% 0;
+	padding: 0 1%;
+	width: 98%;
+}
+
+.hall #headerlinks {
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.hall #headerbox1, #headerbox2, #headerbox3, #headerbox4 {
+        display: block; 
+        float: none; 
+        width: 100%;
+}
+
+.hall #imagegallery img {
+	max-width:95%;
+	margin-bottom:10px;
+}
+
+.hall img {
+	max-width:1000px;
+}
+
+@media(max-width: 320px) {
+.hall .hd-header {
+	width: 100%;
+}
+.hall #hd-logo {
+	font-size: 100%;
+	margin: 3% 0;
+	width:100%;
+	text-align:center;
+}
+
+.hall #hd-logo img {
+	max-width:100%;
+	height:auto;
+}
+
+.hall .slogan {
+	width: 100%;
+	background: none;
+	font-size: 100%;
+	margin: 1% 0;
+}
+.hall .hd-content {
+	width: 100%;
+	margin: 2% 0;
+}
+.hall #listingarea {
+	width: 100%;
+}
+.hall .hd-listingarea-box {
+	width: 100%;
+	margin-bottom: 2%;
+}
+.hall .hd-listingarea-box .nonepadding {
+	width: 100%;
+}
+.hall .hd-listinghead {
+	float: none;
+	line-height: normal;
+	padding: 2% 3%;
+	width: auto;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.hall .desc-headtitle {
+	float: none;
+	line-height: normal;
+	padding: 1% 3%;
+	width: auto;
+	height: auto;
+	text-align: left;
+	margin-bottom: 0;
+}
+.hall .desc-rd {
+	padding: 3% 5%;
+	width: 90%;
+}
+.hall .desc-text ul li {
+	padding: 0 0 0 8%;
+	width: 93%;
+}
+.hall .desc-rd.desc-text img {
+	width: auto;
+	max-width: 100%;
+}
+.hall .hd-wrapcens {
+}
+.hall #hd-footer {
+	width: 100%;
+}
+.hall #hd-footer #hd-copyright {
+	margin: 2% 0;
+	padding: 0 1%;
+	width: 98%;
+}
+
+.hall #headerlinks {
+	width:100%;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+.hall #headerbox1, #headerbox2, #headerbox3, #headerbox4 {
+        display: block; 
+        float: none; 
+        width: 100%;
+}
+
+.hall #imagegallery img {
+	max-width:95%;
+	margin-bottom:10px;
+}
+
+}
+
+.hall table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.hall th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+.hall tr:nth-child(even){background-color: #f2f2f2}
